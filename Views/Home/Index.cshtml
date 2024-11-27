@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+    <!-- Botones para ingresar Proyecto y Usuarios -->
+    <div class="mt-4">
+        <a href="@Url.Action("Index", "Proyecto")" class="btn btn-primary btn-lg">Ingreso de Proyecto</a>
+        <a href="@Url.Action("Index", "Usuarios")" class="btn btn-success btn-lg ml-3">Ingreso de Usuario</a>
+    </div>
+</div>
